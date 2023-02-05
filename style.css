@@ -21,8 +21,8 @@ html, body{
 }
 
 
-
-header{
+/* header and section-1 */
+  header{
     color: #ffffff;
     padding-top: 10px;
     min-height: 50px;
@@ -48,34 +48,33 @@ header{
     font-weight: bold;
   }
 
+  /* section-2 name, links and about me */
   .section-2{
     padding-top: 4vh;
     color:#ffffff;
     text-align: center;
-}
-
+  }
   .section-2 p{
     font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
-}
-
-.about_me{
+  }
+  .about_me{
     color: #7A7C80;
     padding: 15px;
     text-align: center;
-}
-
-.section-2 h2{
+  }
+  .section-2 h2{
     font-size: 1.7rem;
     margin-bottom: 10px;
-}
-.section-2 a{
+  }
+  .section-2 a{
     font-size: 1.7rem;
     padding: 5px;
-}
+  } 
 
-footer {
+/* Footer and section-3, footer for home and resume different for now need to fix later */
+  footer {
     grid-row-start: 2;
     grid-row-start: 3;
     border-top: #32a0c2 3px solid;
@@ -92,6 +91,63 @@ footer {
     right:0;
   }
 
-p{
+
+/* RESUME PAGE */
+  .resume_main_container{
+    padding: 15px;
+  }
+  .resume_section_header{
     color: #ffffff;
-}
+    font-size:larger;
+  }
+  .profile_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pic_and_resume{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  .profile_text{
+    font-size: 1.7rem;
+    padding: 5px;
+  }
+  .resume_main_container p{
+    color: #7A7C80;
+  }
+  .related_coursework{
+    font-size: small;
+  }
+  .school_name{
+    color:rgb(195, 190, 190);
+    font-size:medium;
+  }
+  .project_name{
+    color:rgb(195, 190, 190);
+    font-size:medium;
+  }
+  .grad-date{
+    font-size: smaller;
+  }
+  .skills_content{
+    font-size: large;
+  }
+  .cert_name{
+    color:rgb(195, 190, 190);
+    font-size:medium;
+  }
+  p{
+    margin: 5px;
+  }
+  ul{
+    margin: 0;
+  }
+
+
+/* PROJECTS PAGE */
+  .projects_main_container{
+  padding: 15px;
+  }
+  
